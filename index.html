@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> RESP 4 </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/fontello-4b977287/css/fontello.css">
+</head>
+
+<body>
+   
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img class="graficlogo" src="photos/logo/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="#">Home</a>
+                    <a href="#">NO Home</a>
+                    <a href="#">Too NO Home</a>
+                    <a href="#">Also NO Home</a>
+                    <a href="#">Also too NO Home</a>
+                    <a href="#">Too also NO Home</a>
+                    <a id="menu" href="#" class="icon">&#9776 </a>
+
+                </div>
+            </nav>
+        </header>
+    <div class="flex-conteiner">
+        <main>
+            <div class="carousel">
+            <div class="owl-carousel owl-theme">
+                    <!-- data-lightbox = "animals" -->
+                <div> <a href="img/001.jpeg" style="background-image: url(img/001.jpeg);" data-lightbox = "animals" ></a></div>
+                <div> <a href="img/002.jpg" style="background-image: url(img/002.jpg);" data-lightbox = "animals" ></a></div>
+                <div> <a href="img/003.jpg" style="background-image: url(img/003.jpg);" data-lightbox = "animals" ></a></div>
+                <div> <a href="img/004.jpeg" style="background-image: url(img/004.jpeg);" data-lightbox = "animals" ></a></div>
+                <div> <a href="img/005.jpg" style="background-image: url(img/005.jpg);" data-lightbox = "animals" ></a></div>
+                <div> <a href="img/006.jpg" style="background-image: url(img/006.jpg);" data-lightbox = "animals" ></a></div>
+               
+            </div>
+         </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo"><a href="#"><img src="photos/logo/logo.png" alt="logo"></a></div>
+                <div class="footer-menu">
+                        <a href="#">Home</a>
+                        <a href="#">NO Home</a>
+                        <a href="#">Too NO Home</a>
+                        <a href="#">Also NO Home</a>
+                        <a href="#">Also too NO Home</a>
+                        <a href="#">Too also NO Home</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="#">30899955</a>
+                    <a href="#">aa@goo.aa/a>
+                    <a href="#">NY, 1st Avenue</a></div>
+
+
+                <div class="footer-social">
+                    
+                    
+                    <div> <a href="#" class="icon-behance"></a> </div>
+                    <div> <a href="#" class="icon-twitter-circled"> </a> </div>
+                    <div> <a href="#" class="icon-github-circled"> </a> </div>
+                    <div> <a href="#" class="icon-rocket"></a></div>
+                    <div> <a href="#" class="icon-star"></a></div>
+               
+                  
+                    <!-- <div> <a href="#" class="icon-facebook-circled"></a></div>
+                    <div><a href="#" class="icon-behance"></a></div> 
+                    <div> <a href="#" class="icon-twitter-circled"></a></div> 
+                    <div> </div> 
+                    <div> <a href="#" class="icon-rocket"></a></div>  -->
+
+
+                   
+
+
+
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+    
+
+
+
+    <!-- <script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items:2,
+                dots: false,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                smartSpeed: 1000,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+                
+            });
+        });
+        
+    </script>
+
+</body>
+
+</html>
